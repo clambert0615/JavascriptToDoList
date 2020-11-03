@@ -1,0 +1,48 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <div class="container">
+        <div class="addtasks">
+            <h1 id="title">To-Do List</h1>
+            <p>
+                <label for="newTask">Add Tasks</label>
+                <input type="text" id="newTask">
+                <button>Add task</button>
+            </p>
+        </div>
+        <div class="todotasks">
+            <h3>Items Still To Do</h3>
+            <ul id="incompleteTasks">
+
+            </ul>
+        </div>
+        <div class="donetasks">
+            <h3>Completed Tasks</h3>
+            <ul id="completedTasks">
+                <li>
+                    <input type="checkbox" checked="">
+                    <label>Learn JavaScript</label>
+                    <input type="text">
+                    <button class="edit">Edit</button>
+                    <button class="delete">Delete</button>
+                </li>
+            </ul>
+        </div>
+        <div class="cleartasks">
+            <button id="clear">
+            <p>Clear</p>
+            </button>
+        </div>
+    </div>
+    <script src="todo.js"></script>
+</body>
+
+
+</html>
